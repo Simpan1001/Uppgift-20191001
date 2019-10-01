@@ -13,5 +13,10 @@ namespace CarShopMain
         public int maxSpeed { get; set; }
         public string number { get; set; }
         public int prise { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1} {2}", model, number, prise); ;
+        }
     }
 }
