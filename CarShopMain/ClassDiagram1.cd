@@ -3,7 +3,7 @@
   <Class Name="CarShopMain.Form1">
     <Position X="7" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAIAAAAAIAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAYAAAAAMAAAAAAAAA=</HashCode>
       <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -17,9 +17,9 @@
     <TypeIdentifier />
   </Class>
   <Class Name="CarShopMain.AddCarsToList">
-    <Position X="3.5" Y="2.25" Width="1.5" />
+    <Position X="4.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ACAAAAEAASAAABAAAACAAABCIAAYAAAAEGAAAAAAAAA=</HashCode>
       <FileName>AddCarsToList.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -41,7 +41,7 @@
   <Class Name="CarShopMain.CarObject" Collapsed="true">
     <Position X="0.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <HashCode>AAAAAAEAAAAgQAQAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
       <FileName>CarObject.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -53,6 +53,13 @@
     <Position X="2.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarShopMain.ListMyCars">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAABAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ListMyCars.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

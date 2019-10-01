@@ -9,7 +9,9 @@ namespace CarShopMain
     class CarObject
     {
         public string model { get; set; }
-        public string prise { get; set; }
+        public int horsePower { get; set; }
+        public int maxSpeed { get; set; }
         public string number { get; set; }
+        public int prise { get; set; }
     }
 }

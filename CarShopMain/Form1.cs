@@ -13,18 +13,25 @@ namespace CarShopMain
 {
     public partial class Form1 : Form
     {
-        ArrayList myCars = new ArrayList();
-        AddCarsToList Add = new AddCarsToList();
+        public ArrayList myCars = new ArrayList();
+
         public Form1()
         {
             InitializeComponent();
             button1.Text = "Add Car";
+            button2.Text = "View Storage";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            AddCarsToList Add = new AddCarsToList() {BackColor = Color.Aquamarine};
             Add.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ListMyCars List = new ListMyCars();
+            List.Show();
         }
     }
 }
