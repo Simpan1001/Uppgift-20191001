@@ -18,8 +18,6 @@ namespace CarShopMain
         public Form1()
         {
             InitializeComponent();
-            button1.Text = "Add Car";
-            button2.Text = "View Storage";
         }
 
         private void button1_Click(object sender, EventArgs e)

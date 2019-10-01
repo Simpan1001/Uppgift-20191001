@@ -15,7 +15,16 @@ namespace CarShopMain
         public ListMyCars()
         {
             InitializeComponent();
-            label1.Text = "Here are all stored cars";
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
