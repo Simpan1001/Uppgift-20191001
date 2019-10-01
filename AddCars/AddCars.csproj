@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{18E57A3D-2D3D-408E-BB6C-163E7DF04B25}</ProjectGuid>
+    <ProjectGuid>{0FA28A48-6345-42B8-8DA8-E7CEBFC351D1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CarShopMain</RootNamespace>
-    <AssemblyName>CarShopMain</AssemblyName>
+    <RootNamespace>AddCars</RootNamespace>
+    <AssemblyName>AddCars</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,13 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCarsToList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddCarsToList.Designer.cs">
-      <DependentUpon>AddCarsToList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CarObject.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,9 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -73,7 +63,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
